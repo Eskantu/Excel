@@ -17,7 +17,7 @@ namespace ExcelFile
             //string[] data = new string[] { "Mario,23,Conocido", "Mario,23,Conocido", "Mario,23,Conocido", "Mario,23,Conocido", "Mario,23,Conocido", };
             //excel.WriteIntoFile(headers, data, @"C:\Users\maescalante\Desktop\Archivo.xlsx", "Hoja 1");
 
-            excel.CreateFile(@"C:\Users\maescalante\Desktop\hojas.csv", @"C:\Users\maescalante\Desktop\Headers.csv", @"C:\Users\maescalante\Desktop\CXCCReporteEstatusConvenioRD.csv");
+            excel.CreateFile(@"hojas.csv", @"headers.csv", @"data.csv");
         }
     }
 }
